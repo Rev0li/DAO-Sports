@@ -1,0 +1,15 @@
+DAO sport: 
+
+Federation:
+add whitelist club,
+Pool token subvention,
+transfer partOfSubvention,
+rapport du budget club budgetClub
+
+club:
+emettre fan token au sportif,
+intermediere license (fede => sportif),
+gestion de son budget (token subvention,
+
+sportif:
+afficher sa license/grade/pop
