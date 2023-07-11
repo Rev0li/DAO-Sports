@@ -45,7 +45,12 @@ struct Fede{
  
 }
 
+// Maintenant, analysons les relations entre ces entités :
 
+// Un club sportif peut être associé à une ou plusieurs fédérations sportives.
+// Un sportif peut être affilié à un ou plusieurs clubs sportifs.
+// Un sportif peut détenir une ou plusieurs licences, délivrées par une fédération sportive.
+// Les fédérations sportives peuvent décerner des grades aux sportifs en fonction de leurs performances.
 
 
 }
