@@ -1,13 +1,14 @@
 const hre = require("hardhat");
 
 async function main() {
-  const SBT = await hre.ethers.getContractFactory("SBT");
 
-  const sbt = await SBT.deploy("myname", "BCS");
+  const voting = await hre.ethers.deployContract("Voting");
 
-  await sbt.deployed();
-  // Vous pouvez accéder à l'adresse du contrat déployé
-  console.log(`SBT deployed to ${sbt.address}`);
+  await voting.waitForDeployment();
+
+  console.log(
+    `Voting deployed to ${voting.target}`
+  );
 }
 
 main().catch((error) => {
